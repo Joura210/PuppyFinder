@@ -1,25 +1,204 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pup Finder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
 </head>
+
 <body>
     <div class="container">
         <div class="row">
-            
-            
+            <h2>Survey Time!</h2>
+
         </div>
-    </div>
-    
+        <hr>
+
+        <div class="row">
+            <h3>About you</h3>
+        </div>
+        <div class="row">
+            <h4>Name (Required)</h4>
+            <input type="text" id="name" class="form-control" required="">
+        </div>
+        <div class="row">
+            <h4>Link to Photo (Required)</h4>
+            <input type="text" id="photo" class="form-control" required="">
+        </div>
+        <div class="row">
+            <h2>Question 1</h2>
+        </div>
+        <div class="row">
+            <h4>You love to go on long walks</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice1">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 2</h2>
+        </div>
+        <div class="row">
+            <h4>You love to play fetch</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice2">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 3</h2>
+        </div>
+        <div class="row">
+            <h4>You love to give belly-rubs</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice3">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 4</h2>
+        </div>
+        <div class="row">
+            <h4>You enjoy lounging on the coach</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice4">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 5</h2>
+        </div>
+        <div class="row">
+            <h4>You typically go on long hikes</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice5">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 6</h2>
+        </div>
+        <div class="row">
+            <h4>It is better to get a treat than a nap</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice6">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 7</h2>
+        </div>
+        <div class="row">
+            <h4>You enjoy giving out treats</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice7">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 8</h2>
+        </div>
+        <div class="row">
+            <h4>You tend to give praise easily</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice8">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 9</h2>
+        </div>
+        <div class="row">
+            <h4>You don't mind cleaning up after others</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice9">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <h2>Question 10</h2>
+        </div>
+        <div class="row">
+            <h4>A day at the park sounds lovely</h4>
+        </div>
+        <div class="row">
+            <select class="form-control-sm" id="choice10">
+                <option>1 Strongly Disagree</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 Strongly Agree</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-12-sm">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Submit!</button>
+            </div>
+        </div>
+       
+
 </body>
+
 </html>
