@@ -1,0 +1,23 @@
+{
+  "name": "pupfinder",
+  "version": "1.0.0",
+  "description": "An app to locate the perfect pooch",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joura210/PuppyFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joura210/PuppyFinder/issues"
+  },
+  "homepage": "https://github.com/Joura210/PuppyFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
